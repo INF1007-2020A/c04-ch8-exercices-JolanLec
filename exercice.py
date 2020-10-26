@@ -15,7 +15,7 @@ def comparaison_fichier(file1, file2):
             if line1 != line2:
                 print("les fichiers sont différents! À la ligne {index}, on a:")
                 print(line1)
-                print
+                print("et on ")
 
 
 
