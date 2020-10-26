@@ -26,7 +26,7 @@ def triple_les_espaces(input_file, output_file):
             words= line.split()
             line_triple = "   ".join(words)
             out_file.write(line_triple)
-            
+            @
             out_file.write(line.replace(" ", "   "))
 
     
