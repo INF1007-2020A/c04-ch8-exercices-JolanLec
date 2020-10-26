@@ -20,7 +20,8 @@ def comparaison_fichier(file1, file2):
                     print(line2)
                     break
 
-def triple_les_espaces(input_file, output):
+def triple_les_espaces(input_file, output_file):
+    with open
 
 
 
