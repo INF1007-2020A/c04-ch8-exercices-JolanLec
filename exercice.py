@@ -13,7 +13,7 @@ def comparaison_fichier(file1, file2):
             line2= f2.readline()
 
             if line1 != line2:
-                print("les fichiers sont différents! À la ligne ")
+                print("les fichiers sont différents! À la ligne {}")
 
 
 
