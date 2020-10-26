@@ -7,7 +7,7 @@ PERCENTAGE_TO_LETTER = {"A*": [95, 101], "A": [90, 95], "B+": [85, 90], "B": [80
 
 
 # TODO: Définissez vos fonction ici
-def c
+def compar_fich
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
