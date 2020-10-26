@@ -21,7 +21,7 @@ def comparaison_fichier(file1, file2):
                     break
 
 def triple_les_espaces(input_file, output_file):
-    with open(input_file, 'r', encoding= "utf-8") as in_file, open(ou)
+    with open(input_file, 'r', encoding= "utf-8") as in_file, open(outpu_file, 'w', encoding=)
 
 
 
