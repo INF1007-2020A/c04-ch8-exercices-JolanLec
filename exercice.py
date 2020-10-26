@@ -12,7 +12,8 @@ def comparaison_fichier(file1, file2):
         for line1 in f1:
             line= f2.readline()
 
-            if line1
+            if line1 != line2:
+                
 
 
 
