@@ -8,7 +8,7 @@ PERCENTAGE_TO_LETTER = {"A*": [95, 101], "A": [90, 95], "B+": [85, 90], "B": [80
 
 # TODO: Définissez vos fonction ici
 def compar_fich ():
-    with open()
+    with open('exemple.txt')
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
