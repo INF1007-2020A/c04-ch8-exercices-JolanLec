@@ -33,11 +33,11 @@ def note_lettre(file_path, result_file_path):
     with open(file_path, 'r', encoding= "utf-8") as f, open(result_file_path.txt, 'w', encoding= "utf-8") as f_result:
         notes_pourcentage = f.readlines()
 
-    for note in notes_pourcentage:
-        for key, value in PERCENTAGE_TO_LETTER.items():
-            if value[0] <= note <= value[1]:
-                f_result.write(note + " " + key)
-                break
+        for note in notes_pourcentage:
+            for key, value in PERCENTAGE_TO_LETTER.items():
+                if value[0] <= note <= value[1]:
+                    f_result.write(note + " " + key)
+                    break
 
 
 
