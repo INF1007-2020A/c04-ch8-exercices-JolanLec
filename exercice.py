@@ -44,4 +44,4 @@ def note_lettre(file_path, result_file_path):
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
 
-    notre_lettre()
+    notre_lettre("./notes.txt")
