@@ -34,7 +34,7 @@ def note_lettre(file_path, result_file_path):
         notes_pourcentage = f.readlines()
 
     for note in notes_pourcentage:
-        for key, value in PERCENTAGE_TO_LETTER.item():
+        for key, value in PERCENTAGE_TO_LETTER.items():
 
 
 
