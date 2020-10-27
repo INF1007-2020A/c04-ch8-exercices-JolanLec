@@ -31,9 +31,9 @@ def triple_les_espaces(input_file, output_file):
 
 def note_lettre(file_path, result_file_path):
     with open(file_path, 'r', encoding= "utf-8") as f, open(result_file_path.txt, 'w', encoding= "utf-8") as f_correspondance:
-        for lines in f:
-            notes_pourcentage = f.readlines()
+        notes_pourcentage = f.readlines()
 
+    for 
 
 
 
