@@ -29,7 +29,7 @@ def triple_les_espaces(input_file, output_file):
             # ou juste comme ca:
             # out_file.write(line.replace(" ", "   "))
 
-def note_lettre(file_path,):
+def note_lettre(file_path, result_file):
     with open(file_path, 'r', encoding= "utf-8") as f_notes, open(correspondance.txt, 'w', encoding= "utf-8") as f_correspondance:
         for lines in notes:
             note = 
