@@ -29,8 +29,8 @@ def triple_les_espaces(input_file, output_file):
             # ou juste comme ca:
             # out_file.write(line.replace(" ", "   "))
 
-def note_lettre():
-
+def note_lettre(notes):
+    with open()
 
     
 
