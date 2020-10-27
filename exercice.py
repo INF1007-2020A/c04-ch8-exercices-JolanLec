@@ -37,7 +37,7 @@ def note_lettre(file_path, result_file_path):
         for note in notes_pourcentage:
             for key, value in PERCENTAGE_TO_LETTER.items():
                 if value[0] <= int(note) < value[1]:
-                    f.write(note + " " + key)
+                    f.write(note.strip() + " " + key)
                     break
 
 
