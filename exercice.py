@@ -32,6 +32,7 @@ def triple_les_espaces(input_file, output_file):
 def note_lettre(notes,):
     with open(notes, 'r', encoding= "utf-8") as f_notes, open(correspondance.txt, 'w', encoding= "utf-8") as f_correspondance:
         for lines in notes:
+            
 
 
 
