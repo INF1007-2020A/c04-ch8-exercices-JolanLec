@@ -33,7 +33,7 @@ def note_lettre(file_path, result_file_path):
     with open(file_path, 'r', encoding= "utf-8") as f, open(result_file_path.txt, 'w', encoding= "utf-8") as f_correspondance:
         notes_pourcentage = f.readlines()
 
-    for 
+    for note in notes_pourcentage
 
 
 
