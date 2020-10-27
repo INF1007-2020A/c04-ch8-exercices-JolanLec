@@ -35,7 +35,7 @@ def note_lettre(file_path, result_file_path):
 
     for note in notes_pourcentage:
         for key, value in PERCENTAGE_TO_LETTER.items():
-            if 
+            if value[0 <= note]
 
 
 
